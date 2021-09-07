@@ -7,4 +7,4 @@ def test_button_lang(browser):
     button = browser.find_elements_by_class_name(
         "btn.btn-lg.btn-primary.btn-add-to-basket")
     assert len(button) > 0, "Button is not defined"
-    time.sleep(5)
+    time.sleep(30)
